@@ -15,3 +15,5 @@ MIDDLEWARE = [
 # 이렇게 해야 미들웨어의 처음에 추가가 된다
 
 INTERNAL_IPS = ['127.0.0.1']
+
+CORS_ORIGIN_WHITELIST = ["http://localhost:3000"]

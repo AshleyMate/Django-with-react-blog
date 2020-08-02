@@ -1,8 +1,14 @@
 import React from "react";
-import "./App.scss";
+import "App.scss";
+import PostList from "PostList";
 
 function App() {
-  return <div>Hi</div>;
+  return (
+    <div>
+      Hello!
+      <PostList />
+    </div>
+  );
 }
 
 export default App;
