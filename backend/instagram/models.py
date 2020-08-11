@@ -10,6 +10,7 @@ class TimestampedModel(models.Model):
 
     class Meta:
         abstract = True
+    # 이 모델은 상속을 목적으로 만든 것이기 때문에, 이 모델 자체가 만들어지지 않도록 abstract = True로 했다.
 
 
 class Post(TimestampedModel):

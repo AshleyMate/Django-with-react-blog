@@ -2,3 +2,10 @@ django~=3.0.0
 pillow
 djangorestframework
 django-cors-headers
+
+{% comment %} 현재 이 프로젝트에 필요한 라이브러리들의 목록 {% endcomment %}
+{% comment %} common, dev, prod 이렇게 3개로 나눈 이유는 개발용과 실제 서비스용에서 쓰이는 라이브러리들이 다르기 때문 {% endcomment %}
+{% comment %} 예를 들어 django-debug-toolbar 같은 경우는 개발용으로만 쓰이기 때문에 dev에 넣어둔다 {% endcomment %}
+{% comment %} common은 개발용과 실제 서비스용 모두에 쓰이는 라이브러리들의 목록임 {% endcomment %}
+{% comment %} 만약에 common.txt 에 있는 라이브러리들을 모두 다운받고 싶다면 {% endcomment %}
+{% comment %} pip install -r requirements/common.txt 라고 치면 됨 {% endcomment %}
