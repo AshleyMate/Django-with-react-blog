@@ -8,7 +8,7 @@ function PostList() {
   const [postList, setPostList] = useState([]);
 
   useEffect(() => {
-    Axios.get(apiUrl) //promise객체 반환
+    Axios.get(apiUrl)
       .then((response) => {
         const { data } = response;
         console.log("loaded response :", response);

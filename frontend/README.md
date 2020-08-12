@@ -66,3 +66,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+// jsconfig.json파일을 만들어 준 이유는 src 경로를 통해서 절대경로로 바꿔주려고!
+// 이 파일이 없었더라면 App.js에서 import "./App.scss"; 라고 써줘야 하는데
+// 이 파일을 추가함으로써 import "App.scss"; 이렇게 절대경로로 바뀐다.
