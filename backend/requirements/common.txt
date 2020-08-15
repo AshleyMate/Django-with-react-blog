@@ -1,6 +1,7 @@
 django~=3.0.0
 pillow
 djangorestframework
+djangorestframework-jwt
 django-cors-headers
 
 {% comment %} 현재 이 프로젝트에 필요한 라이브러리들의 목록 {% endcomment %}
